@@ -2,14 +2,14 @@
  
 int main()
 {
-   int n, sum = 0, c, array[80];
+   int n, sum = 0, a, temp[80];
  
    scanf("%d", &n);
  
-   for (c = 0; c < n; c++)
+   for (a = 0; a < n; a++)
    {
-      scanf("%d", &array[c]);
-      sum = sum + array[c];
+      scanf("%d", &temp[a]);
+      sum = sum + temp[a];
    }
  
    printf("Sum = %d\n",sum);
