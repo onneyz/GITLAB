@@ -2,7 +2,7 @@
  
 int main()
 {
-   int n, sum = 0, a, temp[80];
+   int n, sum = 0, a, temp[100];
  
    scanf("%d", &n);
  
